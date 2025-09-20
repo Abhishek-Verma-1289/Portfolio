@@ -4,18 +4,18 @@ export const personalInfo = {
   name: "Abhishek Verma",
   role: "Computer Science Engineer",
   links: {
-    linkedin: "linkedin.com/in/abhishek-verma1289",
+    linkedin: "linkedin.com/in/abhishek-verma12",
     github: "github.com/Abhishek-Verma-1289",
-    email: "abhishekverma1289@gmail.com",
+    email: "vermaabhi1289@gmail.com",
     mobile: "+91 7380902184"
   },
-  photo: "/profile.jpg"
+  photo: "/profile2.jpg"
 };
 
 export const skills = {
-  languages: ["ReactJS", "C++"],
-  frameworks: ["HTML", "CSS", "Bootstrap", "NodeJS"],
-  tools: ["MySQL"],
+  languages: ["ReactJS", "C++" , "HTML","CSS", "Javascript"],
+  frameworks: ["Django", "TailwindCSS", "Bootstrap", "NodeJS"],
+  tools: ["MySQL","MongoDB", "Postman"],
   soft: ["Problem-Solving", "Leadership", "Time Management", "Adaptability"]
 };
 
@@ -27,7 +27,8 @@ export const projects: Project[] = [
       "Implemented a user-friendly UI with React and optimized API calls for better performance"
     ],
     techStack: "ReactJS, NodeJS, API Integration, CSS",
-    date: "Feb 2025"
+    date: "Feb 2025",
+    demo: "https://shiny-cloud.vercel.app/"
   },
   {
     title: "Animal Care Website",
@@ -36,7 +37,8 @@ export const projects: Project[] = [
       "Integrated features include caretaker hiring, pet grooming, feeding, training, boarding, and treatment services."
     ],
     techStack: "HTML, CSS, JavaScript, Bootstrap, MySQL, ReactJS",
-    date: "Nov 2024"
+    date: "Nov 2024",
+    demo: "https://animal-care-website-topaz.vercel.app/"
   },
   {
     title: "HealthCare Website",
@@ -45,7 +47,8 @@ export const projects: Project[] = [
       "Engineered real-time location tracking for emergency services and enabled users to request any blood type and book online consultations anytime."
     ],
     techStack: "HTML, CSS, Bootstrap, ReactJS",
-    date: "Mar 2024"
+    date: "Mar 2024",
+    demo: "https://health-care-silk.vercel.app/"
   }
 ];
 

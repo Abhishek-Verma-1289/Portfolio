@@ -72,14 +72,16 @@ const Projects: React.FC = () => {
               </div>
 
               <div className="px-6 pb-6">
-              <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center w-full gap-2 px-4 py-2 mt-4 border border-indigo-600 text-indigo-600 rounded-md font-medium transition-all hover:bg-indigo-50"
-                >
-                  <ExternalLink size={16} /> View Details
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-full gap-2 px-4 py-2 mt-4 border border-indigo-600 text-indigo-600 rounded-md font-medium transition-all hover:bg-indigo-50"
+                  >
+                    <ExternalLink size={16} /> Live Demo
+                  </a>
+                )}
               </div>
             </div>
           ))}

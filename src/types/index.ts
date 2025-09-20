@@ -3,6 +3,7 @@ export interface Project {
   description: string[];
   techStack: string;
   date?: string;
+  demo?: string;
 }
 
 export interface Certificate {
